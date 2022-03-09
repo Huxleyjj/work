@@ -1,0 +1,42 @@
+.bio .content {
+  text-align: center;
+  flex-direction: row;
+  width: 50%;
+}
+
+.content p {
+  color: white;
+  background: black;
+}
+
+.photo {
+  width: 25%;
+}
+
+/* Image */
+
+/* Hobby/icon section */
+
+details summary::marker {
+  display: none;
+  content: "";
+}
+.hobbies-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  font-size: 300%;
+}
+
+.hobbies-container p {
+  font-size: 50%;
+}
+
+.hobbies-container:hover {
+  background-color: #ffe373;
+}
+
+@media (min-width: 768px) {
+  .hobbies-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

@@ -1,0 +1,29 @@
+.contact #email {
+  text-align: center;
+}
+
+.contact .fancy {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(20, 44, 180);
+  animation-name: lights;
+  animation-duration: 5s;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+@keyframes lights {
+  0% {
+    background: green;
+  }
+  25% {
+    background: yellow;
+  }
+  50% {
+    background: red;
+  }
+  100% {
+    background: purple;
+  }
+}
